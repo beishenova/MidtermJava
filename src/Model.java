@@ -118,10 +118,10 @@ public class Model {
 
                 double result = 0;
                 if (!tech.isEmpty()){
-                     result = Double.parseDouble(tech);
+                     result += Double.parseDouble(tech);
                 }
                 if (!insp.isEmpty()){
-                    result = Double.parseDouble(insp);
+                    result += Double.parseDouble(insp);
                 }
 
                 writer.write("Итоговая оценка :  " + result);
